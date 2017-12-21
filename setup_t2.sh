@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Configure a t2.xlarge instance
+# Configure a t2.micro instance
 
 # get the correct ami
 export region=$(aws configure get region)
